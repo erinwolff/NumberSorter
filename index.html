@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odds and Events</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form>
+      <label>
+        Add a Number to the Bank
+        <input name="input" type="string" />
+      </label>
+      <button>Submit Number</button>
+      <button id="random">Generate Random Number</button>
+    </form>
+    <main>
+      <section id="numberBank">
+        <h1>Number Bank</h1>
+        <output></output>
+        <br>
+        <div>
+          <button id="sortOne">Sort 1</button>
+          <button id="sortAll">Sort All</button>
+        </div>
+      </section>
+      <section id="sortedNumbers">
+        <h1>Sorted Numbers</h1>
+        <section id="odds">
+          <h2>Odds</h2>
+          <output></output>
+        </section>
+        <section id="evens">
+          <h2>Evens</h2>
+          <output></output>
+        </section>
+        <br>
+        <button id="clear">Clear All</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
